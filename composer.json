@@ -1,0 +1,22 @@
+{
+	"name": "algsupport/yii2-websocket",
+	"description": "Yii2 websocket server component",
+	"type": "yii2-extension",
+	"keywords": ["yii2", "websocket", "component", "ratchet"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Albert Gukasian (algsupport)",
+			"email": "admin@algsupport.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*",
+		"cboden/ratchet": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"algsupport\\yii2websocket\\": ""
+		}
+	}
+}
